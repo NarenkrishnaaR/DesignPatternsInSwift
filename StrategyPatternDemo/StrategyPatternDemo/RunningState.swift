@@ -6,7 +6,7 @@
 //  Copyright © 2016 Sam Stone. All rights reserved.
 //
 
-class RunningState : CharectorState{
+class RunningState : CharacterState{
     
     func enterState() {
         print("Entering running state")

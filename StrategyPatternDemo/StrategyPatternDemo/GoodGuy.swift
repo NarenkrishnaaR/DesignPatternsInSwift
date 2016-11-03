@@ -8,9 +8,9 @@
 
 class GoodGuy{
     
-    private var characterState : CharectorState?
+    private var characterState : CharacterState?
     
-    func setState(cs : CharectorState){
+    func setState(cs : CharacterState){
         self.characterState = cs
         characterState!.enterState()
     }

@@ -6,6 +6,6 @@
 //  Copyright © 2016 Sam Stone. All rights reserved.
 //
 
-protocol CharectorState{
+protocol CharacterState{
     func enterState()
 }

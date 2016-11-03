@@ -7,7 +7,7 @@
 //
 
 
-class WalkingState : CharectorState{
+class WalkingState : CharacterState{
     
     func enterState() {
         print("Entering walking state")
