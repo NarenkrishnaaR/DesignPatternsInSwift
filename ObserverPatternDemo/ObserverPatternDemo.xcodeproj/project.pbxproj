@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		65C5F8371DCCF0330050C8CC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5F8361DCCF0330050C8CC /* main.swift */; };
 		65C5F83E1DCCF0630050C8CC /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5F83D1DCCF0630050C8CC /* Observer.swift */; };
-		65C5F8401DCCF0FC0050C8CC /* MSFTStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5F83F1DCCF0FC0050C8CC /* MSFTStock.swift */; };
-		65C5F8421DCCF1070050C8CC /* APPLStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5F8411DCCF1070050C8CC /* APPLStock.swift */; };
-		65C5F8441DCCF1170050C8CC /* GOOGStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5F8431DCCF1170050C8CC /* GOOGStock.swift */; };
+		65C5F8401DCCF0FC0050C8CC /* BinaryObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5F83F1DCCF0FC0050C8CC /* BinaryObserver.swift */; };
+		65C5F8421DCCF1070050C8CC /* OctalObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5F8411DCCF1070050C8CC /* OctalObserver.swift */; };
+		65C5F8441DCCF1170050C8CC /* HexaObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5F8431DCCF1170050C8CC /* HexaObserver.swift */; };
 		65C5F8461DCCF1220050C8CC /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5F8451DCCF1220050C8CC /* Subject.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,9 +31,9 @@
 		65C5F8331DCCF0320050C8CC /* ObserverPatternDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObserverPatternDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C5F8361DCCF0330050C8CC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		65C5F83D1DCCF0630050C8CC /* Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
-		65C5F83F1DCCF0FC0050C8CC /* MSFTStock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSFTStock.swift; sourceTree = "<group>"; };
-		65C5F8411DCCF1070050C8CC /* APPLStock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APPLStock.swift; sourceTree = "<group>"; };
-		65C5F8431DCCF1170050C8CC /* GOOGStock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GOOGStock.swift; sourceTree = "<group>"; };
+		65C5F83F1DCCF0FC0050C8CC /* BinaryObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryObserver.swift; sourceTree = "<group>"; };
+		65C5F8411DCCF1070050C8CC /* OctalObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OctalObserver.swift; sourceTree = "<group>"; };
+		65C5F8431DCCF1170050C8CC /* HexaObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexaObserver.swift; sourceTree = "<group>"; };
 		65C5F8451DCCF1220050C8CC /* Subject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,9 +69,9 @@
 			children = (
 				65C5F8361DCCF0330050C8CC /* main.swift */,
 				65C5F83D1DCCF0630050C8CC /* Observer.swift */,
-				65C5F83F1DCCF0FC0050C8CC /* MSFTStock.swift */,
-				65C5F8411DCCF1070050C8CC /* APPLStock.swift */,
-				65C5F8431DCCF1170050C8CC /* GOOGStock.swift */,
+				65C5F83F1DCCF0FC0050C8CC /* BinaryObserver.swift */,
+				65C5F8411DCCF1070050C8CC /* OctalObserver.swift */,
+				65C5F8431DCCF1170050C8CC /* HexaObserver.swift */,
 				65C5F8451DCCF1220050C8CC /* Subject.swift */,
 			);
 			path = ObserverPatternDemo;
@@ -136,11 +136,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				65C5F8371DCCF0330050C8CC /* main.swift in Sources */,
-				65C5F8401DCCF0FC0050C8CC /* MSFTStock.swift in Sources */,
-				65C5F8441DCCF1170050C8CC /* GOOGStock.swift in Sources */,
+				65C5F8401DCCF0FC0050C8CC /* BinaryObserver.swift in Sources */,
+				65C5F8441DCCF1170050C8CC /* HexaObserver.swift in Sources */,
 				65C5F83E1DCCF0630050C8CC /* Observer.swift in Sources */,
 				65C5F8461DCCF1220050C8CC /* Subject.swift in Sources */,
-				65C5F8421DCCF1070050C8CC /* APPLStock.swift in Sources */,
+				65C5F8421DCCF1070050C8CC /* OctalObserver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
