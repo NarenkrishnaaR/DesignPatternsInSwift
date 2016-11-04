@@ -13,6 +13,7 @@
 		65A015411DCB7F8F00C245A7 /* WalkingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A015401DCB7F8F00C245A7 /* WalkingState.swift */; };
 		65A015431DCB7F9900C245A7 /* RunningState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A015421DCB7F9900C245A7 /* RunningState.swift */; };
 		65A015451DCB7FA500C245A7 /* StandingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A015441DCB7FA500C245A7 /* StandingState.swift */; };
+		65C5F8291DCBA6670050C8CC /* BadGuy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5F8281DCBA6670050C8CC /* BadGuy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		65A015401DCB7F8F00C245A7 /* WalkingState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkingState.swift; sourceTree = "<group>"; };
 		65A015421DCB7F9900C245A7 /* RunningState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunningState.swift; sourceTree = "<group>"; };
 		65A015441DCB7FA500C245A7 /* StandingState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandingState.swift; sourceTree = "<group>"; };
+		65C5F8281DCBA6670050C8CC /* BadGuy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadGuy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				65A015401DCB7F8F00C245A7 /* WalkingState.swift */,
 				65A015421DCB7F9900C245A7 /* RunningState.swift */,
 				65A015441DCB7FA500C245A7 /* StandingState.swift */,
+				65C5F8281DCBA6670050C8CC /* BadGuy.swift */,
 			);
 			path = StrategyPatternDemo;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65A0153D1DCB7E5200C245A7 /* CharectorState.swift in Sources */,
+				65C5F8291DCBA6670050C8CC /* BadGuy.swift in Sources */,
 				65A0153F1DCB7EB800C245A7 /* GoodGuy.swift in Sources */,
 				65A015211DCB7BF100C245A7 /* main.swift in Sources */,
 				65A015411DCB7F8F00C245A7 /* WalkingState.swift in Sources */,

@@ -7,9 +7,14 @@
 //
 
 let goodGuy = GoodGuy()
+let badGuy = BadGuy()
 
 goodGuy.setState(cs: WalkingState())
 goodGuy.setState(cs: StandingState())
 goodGuy.setState(cs: RunningState())
+
+badGuy.setState(cs: WalkingState())
+badGuy.setState(cs: StandingState())
+badGuy.setState(cs: RunningState())
 
 
