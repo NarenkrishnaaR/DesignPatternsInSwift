@@ -9,7 +9,7 @@
 class BinaryObserver : Observer{
     
     private var subject = Subject()
-    private var id = Int()
+    var id = Int()
 
     init(subject : Subject, id : Int) {
         self.subject = subject
@@ -21,8 +21,5 @@ class BinaryObserver : Observer{
         print("Binary: \(String(subject.state, radix: 2))")
     }
     
-    func getId() -> Int {
-        return id
-    }
     
 }

@@ -7,6 +7,6 @@
 //
 
 protocol Observer{
+    var id : Int{ get }
     func update()
-    func getId() -> Int
 }

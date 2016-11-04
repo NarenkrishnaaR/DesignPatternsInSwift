@@ -9,8 +9,8 @@
 class OctalObserver : Observer{
     
     private var subject = Subject()
-    private var id = Int()
-    
+    var id = Int()
+
     init(subject : Subject, id : Int) {
         self.subject = subject
         self.subject.attachObserver(observer: self)
@@ -19,10 +19,6 @@ class OctalObserver : Observer{
     
     func update(){
         print("Octal: \(String(subject.state, radix: 8))")
-    }
-    
-    func getId() -> Int {
-        return id
     }
     
 }
