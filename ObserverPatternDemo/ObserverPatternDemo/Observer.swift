@@ -8,4 +8,5 @@
 
 protocol Observer{
     func update()
+    func getId() -> Int
 }

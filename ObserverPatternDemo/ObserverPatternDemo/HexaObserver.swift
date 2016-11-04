@@ -9,14 +9,20 @@
 class HexaObserver : Observer{
     
     private var subject = Subject()
+    private var id = Int()
     
-    init(subject : Subject) {
+    init(subject : Subject, id : Int) {
         self.subject = subject
         self.subject.attachObserver(observer: self)
+        self.id = id
     }
     
     func update(){
         print("Hex: \(String(subject.state, radix: 16))")
+    }
+    
+    func getId() -> Int {
+        return id
     }
     
 }

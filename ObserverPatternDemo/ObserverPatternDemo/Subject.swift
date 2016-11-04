@@ -24,6 +24,10 @@ class Subject{
         observerArray.append(observer)
     }
     
+    func removeObserver(observer : Observer) {
+        observerArray = observerArray.filter{ $0.getId() != observer.getId() }
+    }
+    
     private func notify(){
         for observer in observerArray {
             observer.update()
