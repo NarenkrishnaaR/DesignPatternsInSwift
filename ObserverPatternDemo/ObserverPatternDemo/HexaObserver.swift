@@ -18,7 +18,7 @@ class HexaObserver : Observer{
     }
     
     func update(){
-        print("Hex: \(String(subject.state, radix: 16))")
+        print("Hex: \(String(subject.number, radix: 16))")
     }
     
 }

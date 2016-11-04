@@ -18,7 +18,7 @@ class OctalObserver : Observer{
     }
     
     func update(){
-        print("Octal: \(String(subject.state, radix: 8))")
+        print("Octal: \(String(subject.number, radix: 8))")
     }
     
 }

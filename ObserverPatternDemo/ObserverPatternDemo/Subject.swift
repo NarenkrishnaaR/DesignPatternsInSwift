@@ -9,14 +9,14 @@
 class Subject{
     
     private var observerArray = [Observer]()
-    private var _state = Int()
-    var state : Int {
+    private var _number = Int()
+    var number : Int {
         set {
-            _state = newValue
+            _number = newValue
             notify()
         }
         get {
-            return _state
+            return _number
         }
     }
     

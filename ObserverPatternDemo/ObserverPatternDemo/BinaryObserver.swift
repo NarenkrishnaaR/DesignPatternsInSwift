@@ -18,7 +18,7 @@ class BinaryObserver : Observer{
     }
     
     func update(){
-        print("Binary: \(String(subject.state, radix: 2))")
+        print("Binary: \(String(subject.number, radix: 2))")
     }
     
     
