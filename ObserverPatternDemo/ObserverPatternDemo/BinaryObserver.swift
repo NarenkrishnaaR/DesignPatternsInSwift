@@ -21,5 +21,4 @@ class BinaryObserver : Observer{
         print("Binary: \(String(subject.number, radix: 2))")
     }
     
-    
 }
